@@ -4,27 +4,27 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f47q10-cnano-spi-client-int-fs",
-        "version": " ",
-        "displayName": "PIC18F47Q10 cnano spi client int fs",
+        "version": "1.0.0",
+        "displayName": "Exchanging Data as an SPI Device Using Interrupts",
         "projectName": "pic18f47q10-cnano-spi-client-int-fs",
-        "shortDescription": "This repository contains a Foundation Services code example for SPI which will be configured as client and it will be used to read write data in interrupt mode",
+        "shortDescription": "In this demo, the SPI is configured as client and it is used to exchange data. The data transfer is triggered by interrupts. The drivers for peripherals were generated using MCC (Foundation Services library).",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=5.30.0"
         },
         "compiler": [
-            {
-                "name": "XC8",
-                "semverRange": "^2.10.0"
-            }
-        ],
+			{
+				"name": "XC8",
+				"semverRange": "^2.10.0"
+			}
+		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC18F-Q_DFP",
+            "semverRange": "^1.3.89"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": "^3.95.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -36,20 +36,32 @@
                 "versionRange": "*"
             }
         },
-        "author": "Alexandru - Ioan - Cristian Sabiuta",
-        "subcategories": [],
-        "peripherals": [],
-        "keywords": [],
-        "additionalData": {
-            "longDescription": {
-                "metaDataVersion": "1.0.0",
-                "category": "com.microchip.portal.fileRef",
-                "content": {
-                    "metaDataVersion": "1.0.0",
-                    "fileName": "./README.md",
-                    "mimeType": "text/markdown"
-                }
-            }
-        }
-    }
+        "author": "Microchip",
+        "subcategories": [
+            [
+               "Peripherals",
+               "MSSP"
+            ]           			
+        ],
+        "peripherals": [
+            "MSSP"
+        ],
+        "keywords": [
+            "Data Transfer",
+            "Serial Communication",
+            "Interrupts",
+            "Foundation Services"
+        ],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./README.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
 }
