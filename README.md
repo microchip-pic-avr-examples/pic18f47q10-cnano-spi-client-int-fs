@@ -3,7 +3,7 @@
 # PIC18F47Q10 Exchanging Data as a Client SPI Device Using Interrupts
 
 ## Objective
-This repository contains an example of Foundation Services generated source code for SPI as described in [*TB3265 - Getting Started with SPI using MSSP on PIC18*](http://ww1.microchip.com/downloads/en/DeviceDoc/Getting-Started-With-SPI-Using-MSSP-on-PIC18-DS90003265A.pdf) document from Microchip.
+This repository contains an example of Foundation Services generated source code for SPI as described in [*TB3265 - Getting Started with SPI using MSSP on PIC18*](https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1002275) document from Microchip.
 <br>In this demo, the SPI will be configured as client and it will be used to exchange data. The data transfer is triggered by interrupts.
 
 ## Related Documentation
